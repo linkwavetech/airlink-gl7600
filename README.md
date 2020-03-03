@@ -1,5 +1,5 @@
-# airlink-gl7600
-GL7600 for Windows 10 guide
+# GL7600 for Windows 10 guide
+
 GL7600 with Windows 10
 The Sierra Wireless GL7600 modem is a compact, LTE CAT-1 external modem, featuring both USB and serial ports. Connection with the serial port is straightforward, providing access to the AT command interface, and facilitating the establishment of PPP over serial data connections.
 Use of the USB port on the GL7600 is dependent on operating system and use case. By default, the GL7600 presents three CDC-ACM ports and four CDC-NCM ports over USB. One of the ACM ports is identified as an “IMC Mobile Phone Modem”. Checking modem properties for this device show it to be COM35 in this case.
