@@ -18,7 +18,7 @@ Type:		 AT <Enter>
  
 Response:	OK
 
-Type: 		AT+USBCOMP=2 <Enter>
+Type: 		AT+KUSBCOMP=2 <Enter>
  
 Response:	OK
 
@@ -53,7 +53,7 @@ Type:		 AT <Enter>
  
 Response:	OK
 
-Type: 		AT+USBCOMP=0 <Enter>
+Type: 		AT+KUSBCOMP=0 <Enter>
  
 Response:	OK
 
