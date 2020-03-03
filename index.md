@@ -4,7 +4,7 @@ The Sierra Wireless GL7600 modem is a compact, LTE CAT-1 external modem, featuri
 
 Use of the USB port on the GL7600 is dependent on operating system and use case. By default, the GL7600 presents three CDC-ACM ports and four CDC-NCM ports over USB. One of the ACM ports is identified as an “IMC Mobile Phone Modem”. Checking modem properties for this device show it to be COM35 in this case.
  
-![Device Manager](./Images/DEVMGR.png "Device Manager")
+![Device Manager](./Images/1DEVMGR.png "Device Manager")
 
 USB endpoint composition is configured using the AT+KUSBCOMP command. By default, this is set to 0.
 
@@ -29,7 +29,7 @@ Response:	OK
 
 The module will then reboot. Device Manager will then show
  
- ![Device Manager after reboot](./Images/3DEVMAN.png)
+ ![Device Manager after reboot](./Images/3DEVMANCDCNCM.png)
  
 There is now only one device associated with the USB port, the CDC NCM/MBIM device. This is all that is needed to control the GL7600 under Windows 10. The AT Command Manual for the GL7600 (HL7692) suggests that serial (ACM) endpoints should be available, but this does not happen in Windows 10.
 
