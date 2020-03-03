@@ -14,7 +14,7 @@ To use the GL7600 with Windows 10, the simplest way is to change the USB endpoin
 
 To set up the GL7600 for MBIM, connect to an AT command port using Teraterm or similar. In this example, this can be COM35 (the modem), COM37 of the hardware serial port on the GL7600. By default, this is set to 115200bps, 8 bit, no parity, no handshaking.
 
-Type:		 __AT <Enter>__
+Type:		 __AT__ <Enter>__
  
 Response:	__OK__
 
