@@ -49,17 +49,17 @@ Once saved, this profile should be applied to the cellular connection by Windows
 
 Note that, as no CDC-ACM endpoints are available, changing the USB endpoint setting requires a connection to be made to the GL7600 using the physical serial port. Once connected, 
 
-Type:		 AT <Enter>
+Type:		 **AT** < Enter >
  
-Response:	OK
+Response:	**OK**
 
-Type: 		AT+KUSBCOMP=0 <Enter>
+Type: 		**AT+KUSBCOMP=0** < Enter >
  
-Response:	OK
+Response:	**OK**
 
-Type:		 AT+CFUN=1,1 <Enter>
+Type:		 **AT+CFUN=1,1** < Enter >
  
-Response:	OK
+Response:	**OK**
  
  
 The GL7600 will reboot and the USB endpoint settings will be default.
